@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #111122;
+}
+/*----------------------------------Heading-----------------------------------------*/
+
+.heading {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*-----logo------*/
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.logo h1 span {
+    color: aqua;
+}
+
+/*----------menu----------*/
+
+#menu {
+    display: none;
+}
+
+#menu2 {
+    display: none;
+}
+
+ .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px
+ }
+
+ .menu ul li a{
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .menu ul li a:hover {
+    border: 2px solid aqua;
+    color: yellow;
+ }
+
+/*-------------------head img---------------------*/
+
+
+.heading-img{
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+}
+.heading-img img {
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid aqua;
+}
+
+.heading-text {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.heading-text h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.heading-text h1 span {
+    color: aqua;
+}
+
+.heading-text p{
+    color: yellow;
+    font-size: 27px;
+}
+
+
+/*-------------About Me-----------------------*/
+
+.aboutme {
+    text-align: left;
+    padding: 20px 50px;
+    margin-top: 80px;
+    background-color: #222;
+    border-radius: 50px;
+    margin: 20px 50px;
+}
+
+.aboutme h1 {
+    font-size: 50px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+
+/*-------------------EDUCATION------------------*/
+
+
+.skilla {
+    text-align: left;
+    padding: 30px 50px;
+    margin-top: 80px;
+    background-color: #222;
+    border-radius: 50px;
+    margin: 50px 50px;
+}
+
+.skilla h1 {
+    padding-top: 50px;
+    padding-left: 40px;
+    color: yellow;
+    font-size: 50px;
+}
+
+.skilla img {
+    width: 90px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.skilla h5 {
+    color: aqua ;
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.skilla h3 {
+    padding-left: 40px;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+#big {
+    width: 100px;
+    padding-left: 14px;
+}
+
+
+/*------------------------Skills-------------------------------*/
+
+.skills {
+    width: 100%;
+    padding: 0 20px;
+    margin: 60px 0;
+}
+
+.skilll{
+    text-align: left;
+    padding: 30px 50px;
+    margin-top: 80px;
+    background-color: #222;
+    border-radius: 50px;
+    margin: 50px 50px;
+}
+
+.skilll h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.skill-per {
+    height: 14px;
+    background-color: yellow;
+    border-radius: 10px;
+    position: relative;
+    color: #000;
+    animation: fillBars 5s 1;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #fff;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    top: -20px;
+    right: 0;
+    transform: translate(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+
+ /*-----------------------Contuct---------------------------------------*/
+
+
+ /*-----------------------img---------------------*/
+
+ .h1 {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .h1 h1 {
+    margin-top: 180px;
+ }
+
+ .h1 h1 span {
+    color: yellow;
+    text-decoration: underline;
+ }
+ 
+ .img-text {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 80px;
+ }
+
+ .htag img {
+    width: 400px;
+    border-radius: 20px;
+ }
+
+ .htag h1 {
+    font-size: 50px;
+    text-align: left;
+ }
+
+ .htag h3 {
+    color: yellow;
+    text-align: left;
+ }
+
+ .htag p {
+    color: #999;
+    text-align: left;
+    width: 400px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+ }
+
+.address {
+    display: inline-block;
+}
+
+  /*-----------------------from---------------------*/
+
+  .from h1 {
+    font-size: 20px;
+  }
+
+ .from input {
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    color: yellow;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+ }
+
+ #textaria {
+    width: 600px;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    color: yellow;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+ }
+
+
+
+   /*-----------------------address---------------------*/
+   .img-text nav {
+    display: flex;
+    align-items: center;
+   }
+
+  .img-text nav img {
+    width: 30px;
+    margin: 20px 40px;
+    margin-left: 0;
+    border-radius: 0;
+   }
+
+   .img-text nav span {
+    font-weight: normal;
+    font-size: 20px;
+    color: #999;
+   }
+
+   #submit {
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+   }
+
+   #submit:hover {
+    width: 160px;
+    color: aqua;
+    border-color: yellow;
+   }
+
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

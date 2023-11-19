@@ -1,0 +1,480 @@
+@media only screen and (min-width: 50px) and (max-width: 900px) {
+    /*------------------------Manubar----------------------------------------------------*/
+
+    .heading {
+        display:block;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+/*-----logo------*/
+
+    .logo h1 {
+        color: #fff;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+/*----------menu----------*/
+
+#menu {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#menu:hover {
+    border: 2px solid aqua;
+}
+#menu2 {
+    cursor: pointer;
+    padding: 20px 20px;
+    display: block;
+    border-bottom: 2px solid aqua;
+    border-radius: 20px;
+}
+#menu2:hover {
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+.mobile {
+    position: absolute;
+    background-color: #636e72;
+    width: 100%;
+    height: 320px;
+    top: -999px;
+    z-index: 1;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+ }
+
+ .menu ul li:nth-child(1) {
+    margin-top: 0px;
+ }
+
+ .menu ul li a{
+    align-items: center;
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid yellow;
+ }
+ .menu ul li a:hover{
+    background-color: black;
+    border: 2px solid aqua;
+ }
+
+
+ /*--------------Heading Img------------*/
+
+.heading-img img{
+    width: 300px;
+}
+
+.heading-text h1 {
+    font-size: 25px;
+}
+
+.heading-text p {
+    font-size: 15px;
+}
+
+/*-----------------------about me ----------------------------*/
+
+.aboutme {
+    text-align: left;
+    padding: 20px 50px;
+    margin-top: 80px;
+    background-color: #222;
+    border-radius: 50px;
+    margin: 20px 10px;
+}
+
+
+.aboutme h1 {
+    font-size: 40px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+/*-------------------EDUCATION------------------*/
+
+.skilla {
+    text-align: left;
+    margin-top: 80px;
+    background-color: #222;
+    border-radius: 50px;
+    margin: 50px 10px;
+    padding: 30px 50px;
+}
+
+.skilla h1 {
+    padding-top: 50px;
+    padding-left: 0px;
+    color: yellow;
+    font-size: 30px;
+}
+
+.skilla img {
+    width: 90px;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+#big {
+    width: 90px;
+    padding-left: 0;
+}
+
+.skilla h5 {
+    color: aqua ;
+    margin-top: 20px;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+.skilla h3 {
+    padding-left: 0px;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+/*------------------------Skills-------------------------------*/
+
+
+.skills {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.skill {
+    text-align: left;
+    margin-top: 80px;
+    background-color: #222;
+    border-radius: 50px;
+}
+
+.skilll{
+    padding: 0 20px;
+    height: 2300px;
+}
+
+.skilll h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*-----------------------Contuct---------------------------------------*/
+
+
+ /*-----------------------img---------------------*/
+
+ .img-text {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 20px;
+ }
+ .from input {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    color: yellow;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+ }
+
+ #textaria {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    color: yellow;
+    background-color: transparent;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 2px solid aqua;
+ }
+
+
+ .htag p {
+    color: #999;
+    text-align: center;
+    width: 320px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+ }
+
+
+ .htag img {
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .htag h1 {
+    font-size: 50px;
+    text-align: center;
+ }
+
+ .htag h3 {
+    color: yellow;
+    text-align: center;
+ }
+
+
+   /*-----------------------address---------------------*/
+   .img-text nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+   }
+
+
+
+
+   @media only screen and (min-width: 781px) and (max-width: 1200px) {
+   
+
+
+/*-----logo------*/
+
+.logo h1 {
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*----------menu----------*/
+
+#menu {
+cursor: pointer;
+display: block;
+text-align: center;
+padding: 10px 20px;
+border: 2px solid yellow;
+font-size: 20px;
+border-radius: 20px;
+}
+#menu:hover {
+border: 2px solid aqua;
+}
+#menu2 {
+cursor: pointer;
+padding: 20px 20px;
+display: block;
+border-bottom: 2px solid aqua;
+border-radius: 20px;
+}
+#menu2:hover {
+background-color: black;
+border: 2px solid yellow;
+}
+
+.mobile {
+position: absolute;
+background-color: #636e72;
+width: 100%;
+height: 320px;
+top: -999px;
+z-index: 1;
+transition: 1s;
+border-radius: 20px;
+}
+
+.menu ul li{
+list-style: none;
+display: block;
+padding: 10px 10px;
+text-align: center;
+}
+
+.menu ul li:nth-child(1) {
+margin-top: 0px;
+}
+
+.menu ul li a{
+align-items: center;
+border: none;
+width: 100%;
+display: block;
+border-bottom: 2px solid yellow;
+}
+.menu ul li a:hover{
+background-color: black;
+border: 2px solid aqua;
+}
+
+
+
+    /*-----------------------address---------------------*/
+    .img-text nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+    
+      .img-text nav img {
+        width: 30px;
+        margin: 20px 40px;
+        margin-left: 0;
+       }
+    
+       .img-text nav h2 {
+        text-align: left;
+       }
+    
+       .img-text nav span {
+        font-weight: normal;
+        font-size: 20px;
+        color: #999;
+        text-align: left;
+       }
+
+
+}
+
+
+
+
+   @media only screen and (min-width: 781px) and (max-width: 1080px) {
+
+    /*-----------------------Contuct---------------------------------------*/
+   
+   
+    /*-----------------------img---------------------*/
+       .img-text {
+           display: grid;
+           grid-template-columns: auto;
+           margin-top: 80px;
+        }
+        .htag h1 {
+           font-size: 50px;
+           text-align: center;
+        }
+       
+        .htag h3 {
+           color: yellow;
+           text-align: center;
+        }
+        .htag p {
+           color: #999;
+           text-align: center;
+           width: 700px;
+           margin-bottom: 40px;
+           margin-top: 10px;
+        }
+        .htag {
+           text-align: center;
+        }
+        .htag img {
+           width: 600px;
+           border-radius: 20px;
+        }
+   
+        .from h1:nth-child(1) {
+           margin-top: 50px;
+        }
+   
+        .from input {
+           width: 700px;
+           margin-top: 10px;
+           margin-bottom: 30px;
+           padding: 15px 20px;
+           color: yellow;
+           background-color: transparent;
+           font-size: 15px;
+           border-radius: 30px;
+           border: 2px solid aqua;
+        }
+       
+        #textaria {
+           width: 700px;
+           min-width: 700px;
+           max-width: 700px;
+           min-height: 200px;
+           max-height: 200px;
+           margin-top: 10px;
+           margin-bottom: 30px;
+           padding: 15px 20px;
+           color: yellow;
+           background-color: transparent;
+           font-size: 15px;
+           border-radius: 30px;
+           border: 2px solid aqua;
+        }
+       
+   
+        
+   
+      /*-----------------------address---------------------*/
+      .img-text nav {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      }
+   
+     .img-text nav img {
+       width: 30px;
+       margin: 20px 40px;
+       margin-left: 0;
+      }
+   
+      .img-text nav h2 {
+       text-align: left;
+      }
+   
+      .img-text nav span {
+       font-weight: normal;
+       font-size: 20px;
+       color: #999;
+       text-align: left;
+      }
+   
+   
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

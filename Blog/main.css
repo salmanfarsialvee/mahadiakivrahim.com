@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #111122;
+}
+/*----------------------------------Heading-----------------------------------------*/
+
+.heading {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*-----logo------*/
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.logo h1 span {
+    color: aqua;
+}
+
+/*----------menu----------*/
+
+#menu {
+    display: none;
+}
+
+#menu2 {
+    display: none;
+}
+
+ .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px
+ }
+
+ .menu ul li a{
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+ .menu ul li a:hover {
+    border: 2px solid aqua;
+    color: yellow;
+ }
+
+
+
+
+ /*------------------------blog----------------------------------*/
+
+
+
+ .blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    row-gap: 5%;
+    margin: 50px 40px 50px 40px;
+ }
+
+
+ /*Blog 1------------*/
+
+ .content {
+    background-color: #333;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;
+    margin-bottom: 50px;
+ }
+
+ .width {
+    width: 400px;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+ }
+
+ .width img{
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.3s;
+ }
+
+ .width img:hover {
+    transform: scale(1.1);
+ }
+
+
+ /*----blog heading-----*/
+
+
+ .content a {
+    text-decoration: none;
+ }
+
+ .content a h1 {
+    font-size: 23px;
+    padding: 20px 50px 10px 30px;
+    transition: 0.5s;
+    color: aqua;
+ }
+
+ .content a h1:hover{
+    color: yellow;
+ }
+
+
+ .textt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+ }
+
+.textt img {
+    width: 15px;
+    height: 15px;
+}
+
+ .textt p{
+    padding: 5px 30px;
+    font-size: 15px;
+ }
+
+ article {
+    padding: 5px 30px;
+ }
